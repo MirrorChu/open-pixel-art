@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
   if (fs.existsSync(dockerEnvFile)) {
     eleventyConfig.setBrowserSyncConfig({
       notify: false,
-      host: '0.0.0.0'
+      host: '0.0.0'
     });
   }
 
